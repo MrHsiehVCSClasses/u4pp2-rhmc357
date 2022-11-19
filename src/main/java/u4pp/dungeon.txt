@@ -1,0 +1,24 @@
+monsters = new Monster[16];
+monsters[0] = new Monster("Lizard", 5, 1, 1);
+// level 2 here // 10 health, 3 atk
+monsters[1] = new Monster("Lizard", 5, 1, 1);
+monsters[2] = new RandomMonster("Sloth", 15, 1, 1);
+// level 3 here // 20 health, 4 atk
+monsters[3] = new RandomMonster("Big Sloth", 30, 4, 2);
+monsters[4] = new Monster("Lizard", 5, 1, 1);
+// level 4 here // 30 health, 5 atk
+monsters[5] = new RandomMonster("Sleepy Goblin Guard", 15, 6, 1);
+monsters[6] = new RandomMonster("Surprised Goblin", 15, 6, 1);
+monsters[7] = new Monster("Goblin", 15, 8, 2);
+// level 5 here // 50 health, 6 atk
+monsters[8] = new Monster("Goblin Gang", 45, 8, 4);
+monsters[9] = new Monster("Elderly Goblin", 8, 1, 1);
+// level 6 here // 60 health, 8 atk
+monsters[10] = new Monster("Crying Goblin", 15, 0, 1);
+monsters[11] = new DefenseMonster("Blue Slime", 10, 5, 2, 1);
+monsters[12] = new DefenseMonster("Green Slime", 10, 5, 3, 5); 
+// level 7 here // 70 health, 9 atk
+monsters[13] = new DefenseMonster("Red Slime", 10, 15, 4, 10);
+monsters[14] = new DefenseMonster("Grey Slime", 20, 5, 4, 20);
+// level 8 here // 80 health, 10 atk
+monsters[15] = new RandomMonster("Golem", 50, 15, 100);
